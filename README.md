@@ -13,6 +13,8 @@ A mock personal page I wanted to whip up with a simple tabbed component. This is
 
 ## To-Do:
 
-- Add the contact form and make it functional
+- Make the contact form functional (first step for this is learning how to do so...)
 
 - Add some animated styling to the tabs for hovering
+
+- I'll probably change the whole color scheme, too

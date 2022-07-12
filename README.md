@@ -2,7 +2,7 @@
 
 A mock personal page I wanted to whip up with a simple tabbed component.
 
-##To-Do:
+## To-Do:
 
 - Add the contact form and make it functional
 

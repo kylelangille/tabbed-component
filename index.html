@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" tye="text/css" href="src/styles.css" />
-    <title>KL</title>
+    <title>Kyle Langille</title>
   </head>
   <body>
     <header>
@@ -24,17 +24,15 @@
         <button class="tab tab--2" data-tab="2">What I've Built</button>
         <button class="tab tab--3" data-tab="3">Contact</button>
       </div>
-
       <div class="content content-1 content-active">
         <ion-icon class="icon-main" name="person"></ion-icon>
         <h5 class="section-header">Who is this guy?</h5>
-
         <p>
           I am currently a social worker looking to make a dramatic career pivot
-          into web development. Right now, I'm currently going the self-taught
-          route learning HTML, CSS, and JavaScript. I'll eventually delve into
-          React.js and whatever back-end language that makes the most sense.
-          I'll cross that bridge when I come to it.
+          into web development. <br />Right now, I'm currently going the
+          self-taught route learning HTML, CSS, and JavaScript. <br />I'll
+          eventually delve into React.js and whatever back-end language that
+          makes the most sense. <br />I'll cross that bridge when I come to it.
         </p>
       </div>
       <div class="content content-2">
@@ -44,25 +42,38 @@
           All of my projects are hosted on my GitHub:&nbsp;
           <a href="https://github.com/kyleisconfused" target="_blank"
             ><ion-icon class="icon-link" name="logo-github"></ion-icon></a
-          >. There isn't a whole lot to show as of now, but I look forward to
+          ><br />
+          There isn't a whole lot to show as of now, but I look forward to
           pushing more code as I keep learning and growing.
         </p>
       </div>
       <div class="content content-3">
         <ion-icon class="icon-main" name="mail"></ion-icon>
-
         <h5 class="section-header">How can I reach this guy?</h5>
         <p>
           Feel free to send me an email! I'd love to get some feedback on how I
-          can improve and develop my skills further. I also enthusiastically
-          welcome any job offers 😃.
+          can improve and develop my skills further.<br />
+          I also enthusiastically welcome any job offers 😃.
         </p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="&nbsp;Your name ..." />
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="&nbsp;Your email ..." />
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Type your message here ..."
+          ></textarea>
+          <input class="submit-btn" type="submit" value="Send Message" />
+        </form>
         <p>
           I also somewhat maintain a WordPress blog about my learning process
           here:&nbsp;
           <a href="https://kyleisconfused.wordpress.com/" target="_blank"
-            ><ion-icon class="icon-link" name="logo-wordpress"></ion-icon></a
-          >.
+            ><ion-icon class="icon-link" name="logo-wordpress"></ion-icon
+          ></a>
         </p>
       </div>
     </main>

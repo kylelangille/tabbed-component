@@ -5,6 +5,9 @@
   font-family: "Poppins", sans-serif;
 }
 
+/*-----------------------------------*/
+/*        MAIN PAGE ELEMENTS         */
+/*-----------------------------------*/
 body {
   background: linear-gradient(90deg, #333333, #474747);
 }
@@ -27,8 +30,9 @@ hr {
   background-color: #777;
 }
 
-/* TABBED COMPONENT */
-
+/*-----------------------------------*/
+/*         TABBED COMPONENT          */
+/*-----------------------------------*/
 .tab-container {
   display: flex;
   justify-content: center;
@@ -88,7 +92,45 @@ hr {
   transform: translateY(-33%);
 }
 
-/* ICONS */
+/*-----------------------------------*/
+/*           CONTACT FORM            */
+/*-----------------------------------*/
+form {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+}
+
+input,
+textarea {
+  height: 3rem;
+  width: 20rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.6em;
+}
+
+textarea {
+  margin-bottom: 1rem;
+}
+
+.submit-btn {
+  width: 12rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #1c5085, #2e86de);
+  color: #d6d6d6;
+  text-transform: uppercase;
+}
+
+#message {
+  height: 6rem;
+}
+
+/*-----------------------------------*/
+/*                ICONS              */
+/*-----------------------------------*/
 .icon-main {
   width: 3rem;
   height: 3rem;
@@ -100,6 +142,9 @@ hr {
   color: #000;
 }
 
+/*-----------------------------------*/
+/*              FOOTER               */
+/*-----------------------------------*/
 footer {
   display: flex;
   justify-content: center;
